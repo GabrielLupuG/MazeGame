@@ -1,3 +1,4 @@
+//Gabriel Lupu
 import java.awt.*;
 import java.awt.event.*;
 import java.util.Collections;
@@ -71,7 +72,7 @@ public class BallotPaper extends JFrame {
 					}
 				}
 						
-				Collections.sort(preferences);
+			Collections.sort(preferences);
 					
 				boolean valid = BallotPaper.this.validate(preferences);
 					
@@ -176,12 +177,12 @@ public class BallotPaper extends JFrame {
 		candidateTitleLabels[0] = new JLabel("BOYD-BARRETT - PEOPLE BEFORE PROFIT");
 		candidateTitleLabels[1] = new JLabel("HEALY-RAE - NON-PARTY");
 		candidateTitleLabels[2] = new JLabel("HOWLIN - THE LABOUR PARTY");
-		candidateTitleLabels[3] = new JLabel("MARTIN - FIANNA F¡IL");
-		candidateTitleLabels[4] = new JLabel("McDONALD - SINN F…IN");
+		candidateTitleLabels[3] = new JLabel("MARTIN - FIANNA F√ÅIL");
+		candidateTitleLabels[4] = new JLabel("McDONALD - SINN F√âIN");
 		candidateTitleLabels[5] = new JLabel("McGRATH - NON-PARTY");
 		candidateTitleLabels[6] = new JLabel("MURPHY - SOCIAL DEMOCRATS");
 		candidateTitleLabels[7] = new JLabel("RYAN - GREEN PARTY");
-		candidateTitleLabels[8] = new JLabel("T”IBÕN - AONT⁄");
+		candidateTitleLabels[8] = new JLabel("T√ìIB√çN - AONT√ö");
 		candidateTitleLabels[9] = new JLabel("VARADKAR - FINE GAEL");
 		
 	}
